@@ -12,4 +12,9 @@ public class HomeController {
     public String getHome(){
         return "Sathish is testing CI CD project";
     }
+
+    @GetMapping("/test")
+    public String getHomedefault(){
+        return "Home is all set for the party";
+    }
 }
